@@ -1,0 +1,29 @@
+# 字串(string)
+name = 'Rock'
+message = '歡迎使用Python'
+
+# 整數
+age = 11
+score = 100
+
+#浮點數
+height = 140.7
+price = 13850.5
+
+# 布林質
+is_studend = True
+has_license = False
+
+
+# 檢查變數類型
+print(name)
+print(type(name))      #<class 'str'>(str=字串)
+print(type(age))       #<class 'int'>(int=整數)
+print(type(height))    #<classc'float'>(float=整數)
+print(type(is_studend))#<classc'bool'>(bool=布林質)
+
+#Python可以任意改變變數的型態，但大部分程式語言不行
+height = '一零四點七'
+
+# 再次檢查
+print(type(height))    #<classc'str'>
