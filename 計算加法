@@ -1,0 +1,24 @@
+'''
+計算加法
+
+'''
+#介紹
+print("這是一個加法計算工具")
+print("我會將第一、第二個數的和告訴你")
+print("٩(^ᴗ^)۶")
+
+#輸入第一個數
+num1=float(input("輸入第一個數:"))
+
+#輸入第二個數
+num2=float(input("輸入第二個數"))
+
+#計算結果
+result = num1 + num2
+
+#顯示結果
+print(f"{num1}+{num2}={result}")
+
+#3Q
+print("3Q你的使用")
+print("٩(^ᴗ^)۶")
