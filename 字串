@@ -1,0 +1,23 @@
+'''
+字串
+'''
+# 字串所引和切片
+message = "Python程式設計"
+print(f"原字串:{message}")
+print(f"第一個字符:{message[0]}")
+print(f"最後一個字符:{message[-1]}")
+print(f"第3個字符:{message[0:3]}")
+print(f"第2→5個字符:{message[2:6]}")
+print(f"每隔一個字符:{message[::2]}")
+print(f"反轉字符:{message[::-1]}")
+
+
+# 字串方法
+text =" Python 是一門優秀的程式語言 "
+print(f"原始字串:'{text}'")
+print(f"轉大寫:{text.upper()}")
+print(f"轉小寫:{text.lower()}")
+print(f"移除空白:'{text.strip()}")
+print(f"取代文字:'{text.replace('Python','C++')}")
+print(f"分割字串:'{text.strip().split(' ')}")
+print(f"字串長度:{len(text)}")
