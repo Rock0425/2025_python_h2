@@ -16,6 +16,6 @@ if (average>60):{
 if (average<60):{
     print(f"你的平均成績是{average}，不及格   ／︿＼ ")
 }
-if (59<average<61):{
+if (average==60):{
     print(f"你的平均成績是{average}，剛好及格    ＼`•̀益•́´／")
 }
