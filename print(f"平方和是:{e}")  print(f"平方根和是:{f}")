@@ -1,0 +1,9 @@
+import math
+nb1=float(input("第一個數:"))
+nb2=float(input("第二個數:"))
+e=(nb1**2)+(nb2**2)
+f=(math.sqrt(nb1))+(math.sqrt(nb2))
+
+print(f"平方和是:{e}")
+
+print(f"平方根和是:{f}")
