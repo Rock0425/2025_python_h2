@@ -1,0 +1,5 @@
+import math
+r=float(input("半徑:"))
+s=r*2*{\displaystyle \pi }
+o=r*r*3.14
+print(f"週長是{s}\n面積是{o}")
