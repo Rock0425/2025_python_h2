@@ -1,0 +1,15 @@
+a1 = ["vtniw","123456789","True","vtniw"]
+print(a1)
+print(len(a1))#數量
+print(a1.count("vtniw"))#出現次數
+
+
+print("\n")
+
+a2=["ctnoi",]#只有一項時也要逗號
+print(a2)
+
+print("\n")
+
+a3=("A","S","D")
+a3[2]="W"
